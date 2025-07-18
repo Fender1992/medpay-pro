@@ -1,0 +1,60 @@
+{
+  "name": "medchat-ai-pro",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Advanced Healthcare AI Assistant with Claude AI, Supabase, and OpenAI Integration",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "14.0.0",
+    "@anthropic-ai/sdk": "^0.27.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "openai": "^4.20.0",
+    "langchain": "^0.1.0",
+    "@langchain/anthropic": "^0.1.0",
+    "@langchain/openai": "^0.1.0",
+    "@heroicons/react": "^2.0.18",
+    "framer-motion": "^10.16.4",
+    "react-hot-toast": "^2.4.1",
+    "clsx": "^2.0.0",
+    "class-variance-authority": "^0.7.0",
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@supabase/auth-helpers-react": "^0.4.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.11",
+    "tailwindcss": "^3.3.5",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "eslint": "^8.51.0",
+    "eslint-config-next": "14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "healthcare",
+    "ai",
+    "claude",
+    "supabase",
+    "next.js",
+    "react",
+    "typescript",
+    "medical",
+    "hipaa"
+  ],
+  "author": "MedChat AI Pro",
+  "license": "MIT"
+}

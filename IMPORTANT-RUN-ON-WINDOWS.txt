@@ -1,0 +1,38 @@
+IMPORTANT: WSL/Windows Localhost Issue
+=====================================
+
+The application cannot be accessed from Windows browser when running in WSL due to networking limitations.
+
+SOLUTION: Run the application directly on Windows (not in WSL)
+=============================================================
+
+1. Open Windows Command Prompt or PowerShell (NOT WSL)
+   - Press Windows Key + R
+   - Type "cmd" or "powershell" and press Enter
+
+2. Navigate to your project directory:
+   cd "C:\Users\Rolando Fender\medpay-pro"
+
+3. Run the installation script:
+   install-dependencies.bat
+
+4. Start the application:
+   start-windows.bat
+
+The application will then be accessible at http://localhost:3000 in your Windows browser.
+
+ALTERNATIVE: Deploy to Vercel
+=============================
+Since you mentioned the app will be hosted on Vercel, you can:
+
+1. Push your code to GitHub
+2. Connect to Vercel (https://vercel.com)
+3. Import your repository
+4. Add environment variables in Vercel dashboard:
+   - NEXT_PUBLIC_SUPABASE_URL
+   - NEXT_PUBLIC_SUPABASE_ANON_KEY
+   - ANTHROPIC_API_KEY
+   - OPENAI_API_KEY
+5. Deploy automatically
+
+Your app will then be accessible at your Vercel URL without any localhost issues.
