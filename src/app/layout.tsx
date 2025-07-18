@@ -40,8 +40,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="h-full">
-      <body className={`${inter.className} h-full`}>
+    <html lang="en" className="h-full dark">
+      <body className={`${inter.className} h-full bg-dark-100 text-gray-100`}>
         <ThemeProvider>
           <div className="min-h-full">
             {children}
@@ -57,15 +57,15 @@ export default function RootLayout({
               success: {
                 duration: 3000,
                 style: {
-                  background: '#10b981',
-                  color: '#fff',
+                  background: '#15803d',
+                  color: '#f1f5f9',
                 },
               },
               error: {
                 duration: 5000,
                 style: {
-                  background: '#ef4444',
-                  color: '#fff',
+                  background: '#991b1b',
+                  color: '#f1f5f9',
                 },
               },
             }}
