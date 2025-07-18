@@ -26,7 +26,11 @@
     "clsx": "^2.0.0",
     "class-variance-authority": "^0.7.0",
     "@supabase/auth-helpers-nextjs": "^0.8.7",
-    "@supabase/auth-helpers-react": "^0.4.2"
+    "@supabase/auth-helpers-react": "^0.4.2",
+    "crypto-js": "^4.2.0",
+    "sanitize-html": "^2.11.0",
+    "validator": "^13.11.0",
+    "helmet": "^7.1.0"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
@@ -39,7 +43,10 @@
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
     "eslint": "^8.51.0",
-    "eslint-config-next": "14.0.0"
+    "eslint-config-next": "14.0.0",
+    "@types/crypto-js": "^4.2.1",
+    "@types/sanitize-html": "^2.9.5",
+    "@types/validator": "^13.11.7"
   },
   "engines": {
     "node": ">=18.0.0"
